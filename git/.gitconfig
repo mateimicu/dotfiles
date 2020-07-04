@@ -1,0 +1,11 @@
+[include]
+  path = ~/.gitconfig.local
+[user]
+	name = Matei-Marius Micu
+	email = matei.micu@mambu.com
+[core]
+	editor = nvim
+
+[alias]
+	setworkemail = "config user.email 'matei.micu@mambu.com'"
+	setpersonalemail = "config user.email 'micumatei@gmail.com'"
