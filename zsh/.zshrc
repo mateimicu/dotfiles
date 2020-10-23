@@ -26,6 +26,12 @@ PROMPT="${ret_status} %{$fg[cyan]%}%c%{$reset_color%} [$AWS_VAULT] $(git_prompt_
 export TF_VAR_bastion_username="matei.micu.at.mambu.com"
 export TF_VAR_bastion_private_key_path="~/.ssh/id_rsa"
 export TF_VAR_bastion_agent=false
-export PATH="$PATH:~/git/infrastructure-tools/bin"
+export PATH="/Users/matei/git/infrastructure-tools/bin:$PATH"
 export PATH="$PATH:/usr/local/kubebuilder/bin"
 export PATH="/usr/local/tflint/bin:$PATH"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/matei/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/matei/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/matei/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/matei/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
