@@ -2,7 +2,7 @@
   path = ~/.gitconfig.local
 [user]
 	name = Matei-Marius Micu
-	email = matei.micu@mambu.com
+	email = matei.micu@hotjar.com
 [core]
 	editor = nvim
 
