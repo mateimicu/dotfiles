@@ -1,4 +1,5 @@
 enter ~/personal
-  export GIT_AUTHOR_EMAIL="micumatei@gmail.com"
+  # export GIT_AUTHOR_EMAIL="micumatei@gmail.com"
 leave ~/personal
-  unset GIT_AUTHOR_EMAIL
+  # unset GIT_AUTHOR_EMAIL
+
