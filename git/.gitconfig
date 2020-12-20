@@ -5,7 +5,10 @@
 	email = matei.micu@hotjar.com
 [core]
 	editor = nvim
+	hooksPath = /home/matei/work/git/hotkit/git
 
 [alias]
-	setworkemail = "config user.email 'matei.micu@mambu.com'"
+	setworkemail = "config user.email 'matei.micu@hotjar.com'"
 	setpersonalemail = "config user.email 'micumatei@gmail.com'"
+[diff "sopsdiffer"]
+	textconv = sops -d

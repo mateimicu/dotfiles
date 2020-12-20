@@ -21,5 +21,8 @@ eval "$(pipenv --completion)"
 export AWS_ASSUME_ROLE_TTL=1h
 
 # Golang
-export PATH="/Users/matei/go/bin:$PATH"
+export PATH="$HOME/go/bin:$PATH"
 
+# WORK
+export COMPOSE_DOCKER_CLI_BUILD=1
+export DOCKER_BUILDKIT=1
