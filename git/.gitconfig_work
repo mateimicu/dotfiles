@@ -1,0 +1,6 @@
+[user]
+	name = Matei-Marius Micu
+	email = matei.micu@hotjar.com
+
+[core]
+	hooksPath = ~/work/git/hotkit/git

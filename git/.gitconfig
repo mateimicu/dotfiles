@@ -2,13 +2,16 @@
   path = ~/.gitconfig.local
 [user]
 	name = Matei-Marius Micu
-	email = matei.micu@hotjar.com
+	email = micumatei@gmail.com
 [core]
-	editor = nvim
-	hooksPath = /home/matei/work/git/hotkit/git
+  editor = nvim
 
 [alias]
 	setworkemail = "config user.email 'matei.micu@hotjar.com'"
 	setpersonalemail = "config user.email 'micumatei@gmail.com'"
 [diff "sopsdiffer"]
 	textconv = sops -d
+
+
+[includeIf "gitdir:~/work/"]
+	path = ~/.gitconfig_work
