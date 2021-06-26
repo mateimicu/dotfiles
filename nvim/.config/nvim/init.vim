@@ -32,6 +32,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'mbbill/undotree'                                                 " Undo Managment
 Plug 'tmhedberg/SimpylFold'                                            " Python syntax aware folding
 Plug 'plasticboy/vim-markdown',  {'for': 'markdown'}
+Plug 'seebi/semweb.vim'                                                                                   " Working with RDF data
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']} " Preview for markdown
 
 " Language support
@@ -483,4 +484,8 @@ au FileType yaml set shiftwidth=2
 au FileType yaml set softtabstop=2
 au FileType yaml set tabstop=2
 
+
+
+" fixme
+autocmd FileType sparql setlocal commentstring=#\ %s
 
