@@ -10,19 +10,19 @@ call plug#begin('~/.nvim/plugged')
 " Dependencies
 
 " General plugins
-Plug 'scrooloose/nerdtree'                                             " For looking at the tree structure
-Plug 'preservim/nerdcommenter'                                         " Helps commenting blocks of text
-Plug 'Xuyuanp/nerdtree-git-plugin'                                     " Show git state per file
-Plug 'godlygeek/tabular'                                               " Makes an alignment based on a pattern
+Plug 'scrooloose/nerdtree'                                                                                " For looking at the tree structure
+Plug 'preservim/nerdcommenter'                                                                            " Helps commenting blocks of text
+Plug 'Xuyuanp/nerdtree-git-plugin'                                                                        " Show git state per file
+Plug 'godlygeek/tabular'                                                                                  " Makes an alignment based on a pattern
 Plug 'bling/vim-airline'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-" Run in order to install extentions and language servers
-" :CocInstall coc-python coc-go coc-actions, coc-snippets, coc-highlight, coc-json
-Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'} " Plugin management for Coc
-Plug 'godlygeek/tabular'                                               " Makes an alignment based on a pattern
-Plug 'majutsushi/tagbar'                                               " Mini Map for code
-Plug 'tpope/vim-surround'                                              " Working with surroundings parentheses, brackets, quotes
-Plug 'ryanoasis/vim-devicons'                                          " Add emoji icons
+                                                                                                          " Run in order to install extentions and language servers
+                                                                                                          " :CocInstall coc-python coc-go coc-actions, coc-snippets, coc-highlight, coc-json
+Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}                                    " Plugin management for Coc
+Plug 'godlygeek/tabular'                                                                                  " Makes an alignment based on a pattern
+Plug 'majutsushi/tagbar'                                                                                  " Mini Map for code
+Plug 'tpope/vim-surround'                                                                                 " Working with surroundings parentheses, brackets, quotes
+Plug 'ryanoasis/vim-devicons'                                                                             " Add emoji icons
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'mileszs/ack.vim'                                                                                    " Used for searching text in files
@@ -30,14 +30,15 @@ Plug 'airblade/vim-gitgutter'                                                   
 Plug 'tpope/vim-fugitive'
 Plug 'hotwatermorning/auto-git-diff'                                                                      " Preview commit diffs in git-rebase-todo
 Plug 'jiangmiao/auto-pairs'
-Plug 'mbbill/undotree'                                                 " Undo Managment
-Plug 'tmhedberg/SimpylFold'                                            " Python syntax aware folding
+Plug 'mbbill/undotree'                                                                                    " Undo Managment
+Plug 'tmhedberg/SimpylFold'                                                                               " Python syntax aware folding
 Plug 'universal-ctags/ctags'
 Plug 'liuchengxu/vim-which-key'
 Plug 'plasticboy/vim-markdown',  {'for': 'markdown'}
 Plug 'rust-lang/rust.vim', {'for': 'rust'}
 Plug 'seebi/semweb.vim'                                                                                   " Working with RDF data
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']} " Preview for markdown
+
 
 " Language support
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' } " Go support
