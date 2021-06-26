@@ -25,16 +25,22 @@ autoload -U colors; colors
 
 # load ondir
 source /usr/share/ondir/integration/zsh
+
 # krew
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+
 # adr-tools
 export PATH="/home/matei/personal/git/adr-tools/src/:$PATH"
 
 alias protege="/home/matei/Protege-5.5.0/run.sh"
 
+
 export AWS_VAULT_PROMPT=ykman
+
 export DOCKER_BUILDKIT=1
 
 [[ /snap/bin/kubectl ]] && source <(kubectl completion zsh)
 
 export KUBECONFIG="$HOME.kube/config"
+
+[[ -f $HOME/.zshrc_local ]] && source $HOME/.zshrc_local
