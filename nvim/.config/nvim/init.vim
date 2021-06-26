@@ -33,6 +33,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'mbbill/undotree'                                                 " Undo Managment
 Plug 'tmhedberg/SimpylFold'                                            " Python syntax aware folding
 Plug 'universal-ctags/ctags'
+Plug 'liuchengxu/vim-which-key'
 Plug 'plasticboy/vim-markdown',  {'for': 'markdown'}
 Plug 'rust-lang/rust.vim', {'for': 'rust'}
 Plug 'seebi/semweb.vim'                                                                                   " Working with RDF data
