@@ -27,6 +27,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-gitgutter'                                          " Show git changes line by line
 Plug 'tpope/vim-fugitive'
+Plug 'hotwatermorning/auto-git-diff'                                                                      " Preview commit diffs in git-rebase-todo
 Plug 'jiangmiao/auto-pairs'
 Plug 'mbbill/undotree'                                                 " Undo Managment
 Plug 'tmhedberg/SimpylFold'                                            " Python syntax aware folding
