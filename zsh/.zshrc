@@ -30,3 +30,4 @@ export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 # adr-tools
 export PATH="/home/matei/personal/git/adr-tools/src/:$PATH"
 
+export AWS_VAULT_PROMPT=ykman
