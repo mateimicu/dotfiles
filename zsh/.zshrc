@@ -25,3 +25,5 @@ autoload -U colors; colors
 
 # load ondir
 source /usr/share/ondir/integration/zsh
+# krew
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
