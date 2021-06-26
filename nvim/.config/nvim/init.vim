@@ -383,6 +383,17 @@ let g:tagbar_type_go = {
 "----------------------------------------------
 nnoremap <leader>o :FZF<CR>
 
+
+"----------------------------------------------
+" Plugin: 'mileszs/ack.vim'
+"----------------------------------------------
+" Use ag instead of ack for search
+" This also work with :Ag <patter> from fzf
+let g:ackprg = 'ag --nogroup --nocolor --column'
+
+nnoremap <leader>a :Ag<CR>
+
+
 "----------------------------------------------
 " Plugin: fatih/vim-go
 "----------------------------------------------
