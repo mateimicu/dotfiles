@@ -30,4 +30,6 @@ export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 # adr-tools
 export PATH="/home/matei/personal/git/adr-tools/src/:$PATH"
 
+alias protege="/home/matei/Protege-5.5.0/run.sh"
+
 export AWS_VAULT_PROMPT=ykman
