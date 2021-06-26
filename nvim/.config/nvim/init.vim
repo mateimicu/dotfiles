@@ -25,7 +25,8 @@ Plug 'tpope/vim-surround'                                              " Working
 Plug 'ryanoasis/vim-devicons'                                          " Add emoji icons
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
-Plug 'airblade/vim-gitgutter'                                          " Show git changes line by line
+Plug 'mileszs/ack.vim'                                                                                    " Used for searching text in files
+Plug 'airblade/vim-gitgutter'                                                                             " Show git changes line by line
 Plug 'tpope/vim-fugitive'
 Plug 'hotwatermorning/auto-git-diff'                                                                      " Preview commit diffs in git-rebase-todo
 Plug 'jiangmiao/auto-pairs'
